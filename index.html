@@ -5,27 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tradutor DevClub</title>
+    <link css rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div>
+    <div class="caixa-maior">
 
 
-        <textarea></textarea>
+        <textarea class="input-texto"></textarea>
 
-        <div>
-            <select>
+        <div class="controle">
+            <select class="idioma">
                 <option>Português</option>
                 <option>Inglês</option>
                 <option>Franês</option>
             </select>
-            <button>Traduzir</button>
-            <button>Microfone</button>
+
+            <button><img src="img/traduzir.ico"></button>
+            <button><img src="img/microfone.png"></button>
+
         </div>
 
-        <div>
-            <h3>Tradução</h3>
-            <p>A tradução aparecerá aqui.</p>
+        <div class="resultado">
+            <h3 class="titulo-traducao">Tradução</h3>
+            <p class="traducao">A tradução aparecerá aqui.</p>
         </div>
     </div>
 </body>

@@ -1,0 +1,90 @@
+button {
+border: none;
+padding: 50px;
+background-color: #ffffff1a;
+border-radius: 20%;
+cursor: pointer;    
+background-size: cover;
+width: 10px;
+height: 10px;
+
+}
+
+/* Toda vez que chama uma classe button, ele aplica essas propriedades */
+
+.traduzir {
+    background: red;
+}
+
+.microfone {
+    background: blue;
+}
+
+* {
+    margin: 0;      /* Remover margens e espaçamentos padrão */
+    padding: 0;     /* Remover margens e espaçamentos padrão */
+    box-sizing: border-box; /* Incluir bordas e padding na largura e altura totais */
+    font-family: 'Times New Roman', Times, serif;   /* Fonte padrão */
+}
+
+body {
+    background: url("img/mapa.png");    /* Imagem de fundo */
+    background-size: cover;     /* Cobrir toda a área */
+    background-position: center;    /* Centralizar a imagem de fundo */
+    height: 100vh; ;            /* Altura total da tela */
+    display: flex;              /* Usar flexbox */
+    align-items: center;        /* Alinhar itens ao centro verticalmente */
+    justify-content: center;    /* Centralizar o conteúdo */
+}
+
+.caixa-maior{
+    background: #818181;      /* Cor de fundo */
+    width: 450px;               /* Largura */
+    border-radius: 25px;        /* Borda arredondada */
+    padding: 20px;              /* Espaçamento interno */
+}
+
+.input-texto {
+    width: 100%;            /* Largura */
+    height: 100px;          /* Altura */
+    border-radius: none;    /* Borda arredondada */
+    outline: none;          /* Remover contorno */
+    background-color: #ffffff1a; /* Cor de fundo */
+    color: white;           /* Cor do texto */
+    font-size: 16px;        /* Tamanho da fonte */
+    padding: 15px;          /* Espaçamento interno */
+}
+
+.idioma {
+    width: 100%;            /* Largura */
+    height: none;           /* Altura */
+    border-radius: 20px;   /* Borda arredondada */
+    outline: none;          /* Remover contorno */
+    padding: 10px;          /* Espaçamento interno */
+    background-color: #ffffff1a;    /* Cor de fundo */
+}
+
+.controle {
+    display: flex;          /* Usar flexbox */
+    align-items: center;    /* Alinhar itens ao centro verticalmente */
+    gap: 10px;              /* Espaçamento entre os itens */
+    margin-top: 20px;       /* Espaçamento superior */
+    margin-bottom: 20px;   /* Espaçamento inferior */
+}
+
+.resultado {
+    padding: 15px;              /* Espaçamento interno */
+    background-color: #ffffff1a; /* Cor de fundo */
+    border-radius: 10px;        /* Borda arredondada */
+}
+
+.titulo-traducao {
+    color: #ffffff1a;   /* Cor do texto */
+    font-size: 14px;    /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */ 
+}
+
+.traducao {
+    color: #818181;   /* Cor do texto */
+    font-size: 16px;  /* Tamanho da fonte */
+}
