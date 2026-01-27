@@ -1,32 +1,61 @@
+<!-- SELETORES CSS
+Para selecionar tudo usa o * 
+Para chamar o seletor com "id" tem que usar o #
+Para chamar o seletor com "class" tem que usar o . 
+Exemplo:
+#titulo {
+    color: green;
+    background-color: lightgray;
+}  
+.texto {
+    color: purple;
+    font-size: 25px;
+}
+
+
+UNIDADES DE MEDIDA CSS
+px - pixels (unidade fixa)
+em - relativo ao tamanho da fonte do elemento pai
+rem - relativo ao tamanho da fonte do elemento raiz (html)
+% - relativo ao elemento pai
+vh - relativo à altura da viewport (1vh = 1% da altura da viewport)
+vw - relativo à largura da viewport (1vw = 1% da largura da viewport)
+Exemplo:
+font-size: 20px;  -->
+<!--
+button {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+button {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+    
+
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Minha primeira página com CSS</h1>
+    <h1 id="titulo">Minha primeira página com CSS</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio eos natus fugiat provident et repudiandae dolores labore optio eum! Sint minima ratione dolorem rem quo provident necessitatibus animi distinctio!</p>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio eos natus fugiat provident et repudiandae dolores labore optio eum! Sint minima ratione dolorem rem quo provident necessitatibus animi distinctio!</p>
 
     <button>Click Me!</button>
     
 </body>
-<style>
-    h1 {
-        color: red;
-        background-color: yellow;
-    }
-    p {
-        color: blue;
-        font-size: 30px;
-    }
 
-    button {
-        background: red;
-        border-color: black;
-        font-size: 20px;
-    }
-</style>
 </html>
