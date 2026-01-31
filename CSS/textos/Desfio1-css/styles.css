@@ -5,24 +5,75 @@
     box-sizing: border-box;
 }
 
-.logo {
-    width: 40%;
-    margin: 20px;
-}
-
 .header {
     display: flex;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px;
     background-color: #ffffff; 
     color: blue;
+    margin-right: 50px;
+}
+
+.div-header {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.button-signup {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .main {
     padding: 20px;
-    display: flex;
+    display: inline-flex;
 }
 
-.div-h1 {
-    margin: 20px 0 0 0;
+.logo {
+    width: 250px;
+    height: auto;
+    margin: 10px 50px 10px 50px;
 }
+
+.div-text {
+    margin: 10px 10px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #333333;
+}
+
+p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.button-learn {
+    align-self: flex-start;
+    text-align: left;
+    background: transparent;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
